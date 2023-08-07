@@ -1,14 +1,14 @@
-.inverted,
-.fancy {
-  font-family: Helvetica, "Times New Roman", sans-serif;
-  font-size: 28px;
+.container .text {
+  background-color: yellow;
+  color: #E00000;
+  font-size: 20px;
+  text-align: center;
 }
 
-.inverted {
-  background-color: black;
-  color: white;
-}
+/* Below are some other possible descendant combinators:
 
-.fancy {
-  background-color: rgb(217, 255, 0);
-}
+div p
+div .text
+.container p
+
+*/
